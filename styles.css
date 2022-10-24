@@ -28,10 +28,13 @@ h2 {
     font-size: 1.2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h3 {
+h3, summary {
     color: cadetblue;
     font-size: 1.1em;
     font-family:  'ubuntu', 'Arial Narrow Bold', sans-serif;
+}
+summary {
+    cursor: pointer;
 }
 h4 {
     color: red;
