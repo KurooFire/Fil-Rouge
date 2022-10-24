@@ -1,12 +1,13 @@
 body {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    margin: O;
-    padding: O;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #332b7b;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 main {
@@ -15,39 +16,37 @@ main {
     width: 85%;
     height: 15%;
 }
-section {
-    width: 90%;
-    height: 90%;
-    font-family: monospace;
-    font-size: 1.4em;
-    color: white;
-}
-title {
-    color: #fdc918;
-    font-size: 2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 h1 {
-    color: red;
+    color: #fdc918;
+    text-shadow: 1px 1px 1px red;
     font-size: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 h2 {
-    color: aliceblue;
+    color: #C7AE1E;
     font-size: 1.2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h3 {
     color: cadetblue;
-    font-size: 1.5em;
-    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1em;
+    font-family:  'ubuntu', 'Arial Narrow Bold', sans-serif;
 }
 h4 {
     color: red;
     font-size: 2em;
     text-align: center;
 }
-b {
+p{
+    color: #fefefe;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;
+}
+span {
     text-decoration: solid;
-    color: rgb(252, 255, 66);
+    font-weight: 900;
+    /* font-style: italic; */
+    color: #4AC73C;
 }
