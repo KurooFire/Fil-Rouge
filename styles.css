@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: O;
+    padding: O;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    width: 85%;
+    height: 15%;
+}
+section {
+    width: 90%;
+    height: 90%;
+    font-family: monospace;
+    font-size: 1.4em;
+    color: white;
+}
+title {
+    color: red;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: red;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    color: aliceblue;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3 {
+    color: cadetblue;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4 {
+    color: red;
+    font-size: 2em;
+    text-align: center;
+}
+b {
+    text-decoration: solid;
+    color: rgb(252, 255, 66);
+}
